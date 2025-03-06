@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Calculator",
+    "slug": "Calculator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/calculator-icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/calculator-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/calculator-splash.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.sphephelo.Calculator"
+    },
+    "web": {},
+    "extra": {
+      "eas": {
+        "projectId": "04745e68-451c-466d-b654-36b117f6a70b"
+      }
+    }
+  }
+}
