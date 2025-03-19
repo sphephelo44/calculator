@@ -21,9 +21,7 @@ export default function Button({ value, onPress, spanTwo, operator, allClear }) 
         { opacity: pressed ? 0.5 : 1 }
       ]}
     >
-      <Text style={[styles.text, theme === "dark" && darkStyles.text]}>
-        {value}
-      </Text>
+      <Text style={[styles.text, theme === "dark" && darkStyles.text]}>{value}</Text>
     </Pressable>
   );
 }
